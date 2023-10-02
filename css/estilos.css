@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Montserrat:wght@700&family=Mukta+Vaani:wght@300&display=swap');
+
+.escritorio{
+    display: none;
+
+}
+
+@media screen and (min-width: 768px) {
+    .escritorio{
+        display: flex;
+    }
+    .celular{
+        display: none;
+    }
+}
+header{
+    background-color: black;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logoImg{
+    height: 100%; 
+    margin-right: 10px;
+
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    display: inline;
+    justify-content: center;
+}
+img {
+    width:129px;
+    height:100px;
+    margin-right: 10px;
+}
+.nombreCompañia{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2,5rem;
+    width: 700px;
+}
+
+.textoSobreImagen{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    width: 700px;
+
+}
+
+.imagenFondo{
+    background-image: url(../assets/img/imagen_mate_fondo);
+    min-width: 98%;
+    height: 900px;
+    background-position: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif; 
+}
+h2{
+    font-family: 'Mukta Vaani', sans-serif;
+    width: 300px;
+    font-size: 2,5rem;
+    align-items: center;
+}
+h3{
+    font-family: 'Mukta Vaani', sans-serif;
+    width: 300px;
+    font-size: 2,5rem;
+    align-items: center; 
+}
+p{
+    font-family: 'Hind Madurai', sans-serif;
+    width:100%;
+    font-size: 2,5rem;
+}
+.navLink{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    align-items: center;
+   
+}
+.anclaLink{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    font-size: 2,5rem;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedorLink{
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+
+}
+.navTienda{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.formulario{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav{
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+}
+
+.textoVideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+/*
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta Vaani', sans-serif;
+*/
+
+
+    
