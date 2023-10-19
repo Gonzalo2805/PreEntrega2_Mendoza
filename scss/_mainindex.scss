@@ -6,7 +6,7 @@
     background-position: center;
 
     .tituloSobreImagen{
-        color: #ffffff;
+        color: map-get($colores, color );
         font-family: 'Montserrat', sans-serif;
         font-size: 5rem;
         width: 700px;
@@ -14,12 +14,8 @@
     
     }
     .textoSobreImagen{
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
+        @extend .tituloSobreImagen;
         font-size: 2rem;
-        width: 700px;
-        padding-top: 30px;
-        
     }
 
 }
@@ -49,7 +45,7 @@
         
         }
         .vermas{
-            color: #ffffff;
+            color: map-get($colores, color );
         }
     }
 }
@@ -68,14 +64,14 @@
 
 @media screen and (max-width:768px){
 
-    .tituloSobreImagen{
-        color: #ffffff;
+    .imagenFondo .tituloSobreImagen{
+        color: map-get($colores, color );
         font-family: 'Montserrat', sans-serif;
         font-size: 3rem;
     
     }
-    .textoSobreImagen{
-        color: #ffffff;
+    .imagenFondo .textoSobreImagen{
+        color: map-get($colores, color );
         font-family: 'Montserrat', sans-serif;
         font-size: 30px;
 
