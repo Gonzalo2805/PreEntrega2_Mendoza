@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .tituloSobreImagen, .imagenFondo .textoSobreImagen {
+  .tituloSobreImagen {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
@@ -34,7 +34,7 @@
   height: 900px;
   background-position: center;
 }
-.imagenFondo .tituloSobreImagen, .imagenFondo .textoSobreImagen {
+.imagenFondo .tituloSobreImagen {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 5rem;
@@ -42,7 +42,11 @@
   padding-top: 30px;
 }
 .imagenFondo .textoSobreImagen {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
+  width: 700px;
+  padding-top: 30px;
 }
 
 .tituloCards {
@@ -84,12 +88,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .imagenFondo .tituloSobreImagen, .imagenFondo .textoSobreImagen {
+  .tituloSobreImagen {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
   }
-  .imagenFondo .textoSobreImagen {
+  .textoSobreImagen {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
@@ -148,17 +152,6 @@
     width: auto;
   }
 }
-.sucursal h1 {
-  font-family: "Montserrat", sans-serif;
-}
-.sucursal p {
-  font-family: "Mukta Vaani", sans-serif;
-  font-size: 25px;
-}
-.sucursal h2 {
-  font-family: "Montserrat", sans-serif;
-}
-
 * {
   margin: 0%;
   padding: 0%;
@@ -180,6 +173,13 @@ body {
 }
 .galeria img:hover {
   border: 5px solid #ffffff;
+}
+
+.contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541)), url(../assets/img/mate\ fondo\ 2.webp);
+  min-width: 98%;
+  height: 900px;
+  background-position: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
