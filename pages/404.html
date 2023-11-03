@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="../css/estilos.css">
         <link rel="icon" href="../favicon.png.png">
     </head>
-    <body>
+    <body class="bg-secondary">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
                 <a class="navbar-brand d-flex" href="#">
-                    <img class="logo" src="../proyecto/assets/img/logo.png" alt="LOGO">
+                    <img class="logo" src="../assets/img/logo.png" alt="LOGO">
                     <h1>Siete Mates</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +22,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../proyecto/pages/productos.html">Productos</a>
+                        <a class="nav-link" href="../pages/productos.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../proyecto/pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../proyecto/pages/sucursales.html">Sucursales</a>
+                        <a class="nav-link" href="../pages/sucursales.html">Sucursales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../proyecto/pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                     </li>
                     
                     </ul>
@@ -43,9 +43,18 @@
             </nav>
 
         </header>
-        <main>
-            <h1>404 ERROR</h1>
-            <img src="" alt="">
+        <main class="container d-flex justify-content-center paginaError">
+            <div class="row pt-5">
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <img src="../assets/img/mate_derramado.jpg" alt="" class="img-fluid border border-dark rounded" style="max-width: 500px;"> 
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-12 my-5">
+                    <h1>404 ERROR</h1>
+                    <p>Ups... Parece que la pagina que estas buscando no existe. ¡Podes vovler al inicio y buscar tu mate ideal!</p>
+                </div>
+                
+            </div>
+            
 
         </main>
         <footer class="bg-dark py-5 mt-5">
@@ -66,6 +75,7 @@
 
 
         </footer>
-        <script src="../js/bootstrap.bundle.min.js"></script>
+        
     </body>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </html>
